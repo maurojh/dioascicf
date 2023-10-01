@@ -85,12 +85,14 @@ class _MyHomePageState extends State<MyHomePage> {
               children: [
                 TextField(
                   decoration: const InputDecoration(
+                    labelText: 'Peso:',
                     hintText: 'Digite o peso:',
                   ),
                   controller: controlaPeso,
                 ),
                 TextField(
                   decoration: const InputDecoration(
+                    labelText: 'Altura:',
                     hintText: 'Digite a altura:',
                   ),
                   controller: controlaAltura,
